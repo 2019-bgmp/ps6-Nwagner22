@@ -1,0 +1,53 @@
+#!/usr/bin/env bash
+
+#SBATCH --account=bgmp          ### SLURM account which will be charged for the job
+#SBATCH --partition=bgmp        ### Partition (like a queue in PBS)
+#SBATCH --job-name=PS6          ### Job Name
+#SBATCH --output=slurm-%j-%x.out          ### File in which to store job output
+#SBATCH --time=0-02:00:00       ### Wall clock time limit in Days-HH:MM:SS
+#SBATCH --nodes=1               ### Node count required for the job
+#SBATCH --ntasks-per-node=1     ### Nuber of tasks to be launched per Node
+#SBATCH --cpus-per-task=1       ### Number of cpus (cores) per task
+
+conda activate bgmp_py3
+
+# fq_1='/projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1'
+# fq_2='/projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2'
+# fq_unmatched='/projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched'
+
+# /usr/bin/time -v velveth 41_output_directory/ 41 -shortPaired -fastq -separate $fq_1 $fq_2 -short2 -fastq $fq_unmatched
+
+# /usr/bin/time -v velvetg 41_output_directory/ -ins_length 200 -exp_cov 37.68 
+
+# ./fa_converter.py -i 41_output_directory/contigs.fa -o 41_output_directory/contigs_converted.fa
+# ./PS6_part1.py -f 41_output_directory/contigs_converted.fa -k 41
+
+
+
+# /usr/bin/time -v velveth 49_output_directory/ 49 -shortPaired -fastq -separate $fq_1 $fq_2 -short2 -fastq $fq_unmatched
+
+# /usr/bin/time -v velvetg 49_output_directory/ -ins_length 200 -exp_cov 37.68 -cov_cutoff 20
+
+# ./fa_converter.py -i 49_output_directory/contigs.fa -o 49_output_directory/20x_contigs_converted.fa
+# ./PS6_part1.py -f 49_output_directory/20x_contigs_converted.fa -k49
+
+
+
+# /usr/bin/time -v velvetg 49_output_directory/ -ins_length 200 -exp_cov 37.68 -cov_cutoff 60
+
+# ./fa_converter.py -i 49_output_directory/contigs.fa -o 49_output_directory/60x_contigs_converted.fa
+# ./PS6_part1.py -f 49_output_directory/60x_contigs_converted.fa -k 49
+
+
+
+/usr/bin/time -v velvetg 49_output_directory/ -ins_length 200 -exp_cov 37.68 -cov_cutoff auto
+
+./fa_converter.py -i 49_output_directory/contigs.fa -o 49_output_directory/auto_contigs_converted.fa
+./PS6_part1.py -f 49_output_directory/auto_contigs_converted.fa -k 49
+
+
+
+# /usr/bin/time -v velvetg 49_output_directory/ -ins_length 500 -exp_cov 37.68 -cov_cutoff auto
+
+# ./fa_converter.py -i 49_output_directory/contigs.fa -o 49_output_directory/500_auto_contigs_converted.fa
+# ./PS6_part1.py -f 49_output_directory/500_auto_contigs_converted.fa -k 49

@@ -1,0 +1,14 @@
+[0.000000] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1;
+[0.020584] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2;
+[3.928255] 1717978 sequences found in total in the paired sequence files
+[3.928257] Done
+[3.946348] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched;
+[5.338957] 849803 sequences found
+[5.338959] Done
+[5.386725] Reading read set file new_output_directory//Sequences;
+[5.780584] 2567781 sequences found
+[7.676532] Done
+[7.676536] 2567781 sequences in total.
+[7.681160] Writing into roadmap file new_output_directory//Roadmaps...
+[9.448326] Inputting sequences...
+[9.459194] Inputting sequence 0 / 2567781

@@ -1,0 +1,195 @@
+[0.000000] Reading graph file 49_output_directory//Graph2
+[0.000078] Graph has 5875 nodes and 2567781 sequences
+[1.559870] Measuring median coverage depth...
+[1.561745] Median coverage depth = 33.683066
+[1.561949] Reading read set file 49_output_directory//Sequences;
+[2.050892] 2567781 sequences found
+[4.144633] Done
+[6.059268] Removing contigs with coverage < 16.841533...
+[6.064497] Concatenation...
+[6.105187] Renumbering nodes
+[6.105189] Initial node count 5875
+[6.105249] Removed 3578 null nodes
+[6.105250] Concatenation over!
+[6.105293] Concatenation...
+[6.105369] Renumbering nodes
+[6.105370] Initial node count 2297
+[6.105372] Removed 0 null nodes
+[6.105372] Concatenation over!
+[6.105379] Clipping short tips off graph, drastic
+[6.105584] Concatenation...
+[6.106379] Renumbering nodes
+[6.106380] Initial node count 2297
+[6.106416] Removed 89 null nodes
+[6.106417] Concatenation over!
+[6.106417] 2208 nodes left
+[6.106423] Read coherency...
+[6.106447] Identifying unique nodes
+[6.106483] Done, 773 unique nodes counted
+[6.106484] Trimming read tips
+[6.106542] Renumbering nodes
+[6.106542] Initial node count 2208
+[6.106544] Removed 0 null nodes
+[6.106545] Confronted to 0 multiple hits and 0 null over 0
+[6.106545] Read coherency over!
+[6.119454] Starting pebble resolution...
+[6.130467] Computing read to node mapping array sizes
+[6.197552] Computing read to node mappings
+[6.452688] Estimating library insert lengths...
+[6.464668] Done
+[6.464675] Computing direct node to node mappings
+[6.512521] Scaffolding node 0
+[6.557157]  === Nodes Scaffolded in 0.092481 s
+[6.563879] Preparing to correct graph with cutoff 0.200000
+[6.596467] Cleaning memory
+[6.596469] Deactivating local correction settings
+[6.596500] Pebble done.
+[6.596500] Starting pebble resolution...
+[6.606505] Computing read to node mapping array sizes
+[6.669500] Computing read to node mappings
+[6.929670] Estimating library insert lengths...
+[6.942603] Done
+[6.942613] Computing direct node to node mappings
+[6.987905] Scaffolding node 0
+[7.029938]  === Nodes Scaffolded in 0.087325 s
+[7.035194] Preparing to correct graph with cutoff 0.200000
+[7.037861] Cleaning memory
+[7.038947] Deactivating local correction settings
+[7.038980] Pebble done.
+[7.038982] Concatenation...
+[7.041257] Renumbering nodes
+[7.041258] Initial node count 2208
+[7.041297] Removed 706 null nodes
+[7.041312] Concatenation over!
+[7.041313] Removing reference contigs with coverage < 16.841533...
+[7.041366] Concatenation...
+[7.041419] Renumbering nodes
+[7.041420] Initial node count 1502
+[7.041421] Removed 0 null nodes
+[7.041433] Concatenation over!
+[7.054541] Writing contigs into 49_output_directory//contigs.fa...
+[7.485688] Writing into stats file 49_output_directory//stats.txt...
+[7.505508] Writing into graph file 49_output_directory//LastGraph...
+[8.032783] Estimated Coverage cutoff = 16.841533
+Final graph has 1502 nodes and n50 of 5991, max 41765, total 1293124, using 1905609/2567781 reads
+	Command being timed: "velvetg 49_output_directory/ -ins_length 500 -exp_cov 37.68 -cov_cutoff auto"
+	User time (seconds): 7.20
+	System time (seconds): 0.85
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 512356
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 177743
+	Voluntary context switches: 48
+	Involuntary context switches: 24
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+TOTAL LENGTH OF GENOME ASSEMBLY: 1319148
+NUM CONTIG: 759
+MAX CONTIG LENGTH: 41813
+MEAN CONTIG LENGTH: 1738.00790513834
+MEAN COVERAGE DEPTH: 77.40971555731231
+N50:  5810
+#Contig length	Number of contigs in this category
+0	60
+100	176
+200	83
+300	39
+400	38
+500	26
+600	19
+700	21
+800	15
+900	11
+1000	10
+1100	12
+1200	17
+1300	13
+1400	8
+1500	10
+1600	11
+1700	11
+1800	11
+1900	10
+2000	5
+2100	13
+2200	2
+2300	8
+2400	7
+2500	8
+2600	3
+2700	5
+2800	5
+2900	8
+3100	3
+3200	4
+3300	1
+3400	4
+3500	3
+3600	1
+3800	4
+3900	2
+4100	2
+4200	1
+4300	4
+4400	5
+4500	2
+4800	1
+5000	1
+5100	1
+5200	1
+5300	1
+5400	1
+5700	3
+5800	1
+6000	1
+6200	1
+6300	1
+6500	2
+6700	1
+7200	1
+7300	1
+7600	2
+7800	1
+8100	1
+8300	1
+8700	1
+8800	1
+8900	1
+9000	1
+9100	2
+9200	1
+9500	2
+10400	2
+11000	1
+11200	1
+11300	1
+11500	2
+11600	1
+12100	1
+12800	1
+13100	1
+13400	1
+15500	1
+18300	1
+18500	1
+19400	2
+19800	1
+20100	1
+24000	1
+28600	1
+35200	1
+36000	1
+40500	1
+41800	1

@@ -1,0 +1,43 @@
+[0.000000] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1;
+[0.021408] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2;
+[3.895622] 1717978 sequences found in total in the paired sequence files
+[3.895625] Done
+[3.912302] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched;
+[5.313400] 849803 sequences found
+[5.313402] Done
+[5.402371] Reading read set file output_directory//Sequences;
+[5.813206] 2567781 sequences found
+[7.724085] Done
+[7.724089] 2567781 sequences in total.
+[7.727647] Writing into roadmap file output_directory//Roadmaps...
+[9.485794] Inputting sequences...
+[9.496386] Inputting sequence 0 / 2567781
+[827.042387] Inputting sequence 1000000 / 2567781
+[1641.589388] Inputting sequence 2000000 / 2567781
+[2104.143405]  === Sequences loaded in 2094.719397 s
+[2104.143536] Done inputting sequences
+[2104.143538] Destroying splay table
+[2104.151754] Splay table destroyed
+	Command being timed: "velveth output_directory/ 31 -shortPaired -fastq -separate /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1 /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2 -short2 -fastq /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched"
+	User time (seconds): 2102.62
+	System time (seconds): 1.27
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 35:04.19
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 732208
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 500119
+	Voluntary context switches: 414
+	Involuntary context switches: 163361
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

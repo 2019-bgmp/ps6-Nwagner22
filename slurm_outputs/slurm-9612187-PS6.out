@@ -1,0 +1,185 @@
+[0.000000] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1;
+[0.020099] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2;
+[4.093381] 1717978 sequences found in total in the paired sequence files
+[4.093384] Done
+[4.116962] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched;
+[5.517366] 849803 sequences found
+[5.517368] Done
+[5.564958] Reading read set file output_directory//Sequences;
+[5.955603] 2567781 sequences found
+[7.860175] Done
+[7.860179] 2567781 sequences in total.
+[7.871266] Writing into roadmap file output_directory//Roadmaps...
+[9.609560] Inputting sequences...
+[9.620214] Inputting sequence 0 / 2567781
+[819.753214] Inputting sequence 1000000 / 2567781
+[1630.023216] Inputting sequence 2000000 / 2567781
+[2090.696234]  === Sequences loaded in 2081.148536 s
+[2090.696501] Done inputting sequences
+[2090.696503] Destroying splay table
+[2090.704611] Splay table destroyed
+	Command being timed: "velveth output_directory/ 31 -shortPaired -fastq -separate /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1 /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2 -short2 -fastq /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched"
+	User time (seconds): 2089.28
+	System time (seconds): 1.23
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 34:50.74
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 732208
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 521250
+	Voluntary context switches: 368
+	Involuntary context switches: 162149
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+[0.000000] Reading roadmap file output_directory//Roadmaps
+[3.172912] 2567781 roadmaps read
+[3.173828] Creating insertion markers
+[3.677848] Ordering insertion markers
+[5.571451] Counting preNodes
+[5.828889] 1346738 preNodes counted, creating them now
+[7.897534] Sequence 1000000 / 2567781
+[9.409868] Sequence 2000000 / 2567781
+[10.197176] Adjusting marker info...
+[10.530245] Connecting preNodes
+[12.932036] Connecting 1000000 / 2567781
+[15.192952] Connecting 2000000 / 2567781
+[16.383759] Cleaning up memory
+[16.384512] Done creating preGraph
+[16.384573] Concatenation...
+[16.657052] Renumbering preNodes
+[16.657056] Initial preNode count 1346738
+[16.675493] Destroyed 1120657 preNodes
+[16.675497] Concatenation over!
+[16.675498] Clipping short tips off preGraph
+[16.712699] Concatenation...
+[16.752040] Renumbering preNodes
+[16.752042] Initial preNode count 226081
+[16.760223] Destroyed 97409 preNodes
+[16.760224] Concatenation over!
+[16.760224] 57373 tips cut off
+[16.760225] 128672 nodes left
+[16.763467] Writing into pregraph file output_directory//PreGraph...
+[17.076996] Reading read set file output_directory//Sequences;
+[17.465045] 2567781 sequences found
+[19.379707] Done
+[21.106103] Reading pre-graph file output_directory//PreGraph
+[21.106277] Graph has 128672 nodes and 2567781 sequences
+[21.248773] Scanning pre-graph file output_directory//PreGraph for k-mers
+[21.306298] 3121604 kmers found
+[21.570067] Sorting kmer occurence table ... 
+[22.974304] Sorting done.
+[22.974307] Computing acceleration table... 
+[23.026104] Computing offsets... 
+[23.047215] Ghost Threading through reads 0 / 2567781
+[36.226980] Ghost Threading through reads 1000000 / 2567781
+[44.981147] Ghost Threading through reads 2000000 / 2567781
+[45.023589]  === Ghost-Threaded in 21.976750 s
+[45.023594] Threading through reads 0 / 2567781
+[59.176429] Threading through reads 1000000 / 2567781
+[72.492948] Threading through reads 2000000 / 2567781
+[79.477954]  === Threaded in 34.454361 s
+[79.488066] Correcting graph with cutoff 0.200000
+[79.492736] Determining eligible starting points
+[79.614714] Done listing starting nodes
+[79.614717] Initializing todo lists
+[79.635654] Done with initilization
+[79.635657] Activating arc lookup table
+[79.652745] Done activating arc lookup table
+[79.734866] 10000 / 128672 nodes visited
+[79.803681] 20000 / 128672 nodes visited
+[79.879674] 30000 / 128672 nodes visited
+[79.963269] 40000 / 128672 nodes visited
+[80.051162] 50000 / 128672 nodes visited
+[80.141869] 60000 / 128672 nodes visited
+[80.219607] 70000 / 128672 nodes visited
+[80.281990] 80000 / 128672 nodes visited
+[80.343759] 90000 / 128672 nodes visited
+[80.398234] 100000 / 128672 nodes visited
+[80.437124] 110000 / 128672 nodes visited
+[80.446946] 120000 / 128672 nodes visited
+[80.455085] 130000 / 128672 nodes visited
+[80.456245] Concatenation...
+[80.461460] Renumbering nodes
+[80.461462] Initial node count 128672
+[80.463078] Removed 72974 null nodes
+[80.463079] Concatenation over!
+[80.463079] Clipping short tips off graph, drastic
+[80.496753] Concatenation...
+[80.512072] Renumbering nodes
+[80.512073] Initial node count 55698
+[80.513026] Removed 27088 null nodes
+[80.513027] Concatenation over!
+[80.513028] 28610 nodes left
+[80.513979] Writing into graph file output_directory//Graph...
+[80.694886] WARNING: NO COVERAGE CUTOFF PROVIDED
+[80.694887] Velvet will probably leave behind many detectable errors
+[80.694887] See manual for instructions on how to set the coverage cutoff parameter
+[80.694932] Removing contigs with coverage < -1.000000...
+[80.697067] Concatenation...
+[80.698280] Renumbering nodes
+[80.698281] Initial node count 28610
+[80.698304] Removed 0 null nodes
+[80.698305] Concatenation over!
+[80.699040] Concatenation...
+[80.700227] Renumbering nodes
+[80.700227] Initial node count 28610
+[80.700245] Removed 0 null nodes
+[80.700245] Concatenation over!
+[80.700261] Clipping short tips off graph, drastic
+[80.700954] Concatenation...
+[80.702187] Renumbering nodes
+[80.702187] Initial node count 28610
+[80.702206] Removed 0 null nodes
+[80.702206] Concatenation over!
+[80.702206] 28610 nodes left
+[80.702207] WARNING: NO EXPECTED COVERAGE PROVIDED
+[80.702207] Velvet will be unable to resolve any repeats
+[80.702207] See manual for instructions on how to set the expected coverage parameter
+[80.702208] Concatenation...
+[80.703412] Renumbering nodes
+[80.703413] Initial node count 28610
+[80.703433] Removed 0 null nodes
+[80.703434] Concatenation over!
+[80.703434] Removing reference contigs with coverage < -1.000000...
+[80.704426] Concatenation...
+[80.705574] Renumbering nodes
+[80.705574] Initial node count 28610
+[80.705593] Removed 0 null nodes
+[80.705594] Concatenation over!
+[80.715362] Writing contigs into output_directory//contigs.fa...
+[80.836803] Writing into stats file output_directory//stats.txt...
+[80.924773] Writing into graph file output_directory//LastGraph...
+Final graph has 28610 nodes and n50 of 299, max 4029, total 2004606, using 0/2567781 reads
+	Command being timed: "velvetg output_directory/"
+	User time (seconds): 79.80
+	System time (seconds): 1.21
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:21.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 498000
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 339630
+	Voluntary context switches: 201
+	Involuntary context switches: 220
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

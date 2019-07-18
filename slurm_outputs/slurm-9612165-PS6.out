@@ -1,0 +1,15 @@
+[0.000000] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1;
+[0.014622] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2;
+[4.023135] 1717978 sequences found in total in the paired sequence files
+[4.023137] Done
+[4.061530] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched;
+[5.580026] 849803 sequences found
+[5.580028] Done
+[5.629588] Reading read set file output_directory//Sequences;
+[6.120145] 2567781 sequences found
+[8.197009] Done
+[8.197012] 2567781 sequences in total.
+[8.199360] Writing into roadmap file output_directory//Roadmaps...
+[10.061128] Inputting sequences...
+[10.072203] Inputting sequence 0 / 2567781
+slurmstepd: error: *** JOB 9612165 ON n137 CANCELLED AT 2019-07-12T16:49:58 ***

@@ -1,0 +1,67 @@
+[0.000000] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1;
+[0.020138] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2;
+[4.243152] 1717978 sequences found in total in the paired sequence files
+[4.243155] Done
+[4.257303] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched;
+[5.701287] 849803 sequences found
+[5.701288] Done
+[5.751331] Reading read set file output_directory//Sequences;
+[6.222904] 2567781 sequences found
+[8.192301] Done
+[8.192304] 2567781 sequences in total.
+[8.195479] Writing into roadmap file output_directory//Roadmaps...
+[9.948703] Inputting sequences...
+[9.953723] Inputting sequence 0 / 2567781
+[818.588715] Inputting sequence 1000000 / 2567781
+[1629.280718] Inputting sequence 2000000 / 2567781
+[2092.305737]  === Sequences loaded in 2082.420362 s
+[2092.305897] Done inputting sequences
+[2092.305900] Destroying splay table
+[2092.315365] Splay table destroyed
+	Command being timed: "velveth output_directory/ 31 -shortPaired -fastq -separate /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1 /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2 -short2 -fastq /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched"
+	User time (seconds): 2090.74
+	System time (seconds): 1.30
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 34:52.36
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 732208
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 748696
+	Voluntary context switches: 376
+	Involuntary context switches: 162433
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command terminated by signal 11
+	Command being timed: "velvetg output_directory/"
+	User time (seconds): 1.99
+	System time (seconds): 0.25
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 113392
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2401
+	Voluntary context switches: 111
+	Involuntary context switches: 5
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

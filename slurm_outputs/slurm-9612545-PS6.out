@@ -1,0 +1,179 @@
+[0.000001] Reading graph file 49_output_directory//Graph2
+[0.000075] Graph has 5875 nodes and 2567781 sequences
+[1.523700] WARNING: NO COVERAGE CUTOFF PROVIDED
+[1.523702] Velvet will probably leave behind many detectable errors
+[1.523703] See manual for instructions on how to set the coverage cutoff parameter
+[1.523750] Reading read set file 49_output_directory//Sequences;
+[2.020984] 2567781 sequences found
+[4.174589] Done
+[5.978482] Removing contigs with coverage < -1.000000...
+[6.062871] Concatenation...
+[6.063410] Renumbering nodes
+[6.063411] Initial node count 5875
+[6.063430] Removed 0 null nodes
+[6.063431] Concatenation over!
+[6.063542] Concatenation...
+[6.063751] Renumbering nodes
+[6.063751] Initial node count 5875
+[6.063756] Removed 0 null nodes
+[6.063756] Concatenation over!
+[6.063760] Clipping short tips off graph, drastic
+[6.063864] Concatenation...
+[6.064051] Renumbering nodes
+[6.064051] Initial node count 5875
+[6.064055] Removed 0 null nodes
+[6.064056] Concatenation over!
+[6.064056] 5875 nodes left
+[6.064061] Read coherency...
+[6.064111] Identifying unique nodes
+[6.064188] Done, 1028 unique nodes counted
+[6.064188] Trimming read tips
+[6.064295] Renumbering nodes
+[6.064295] Initial node count 5875
+[6.064299] Removed 0 null nodes
+[6.064300] Confronted to 0 multiple hits and 0 null over 0
+[6.064300] Read coherency over!
+[6.073108] Starting pebble resolution...
+[6.083584] Computing read to node mapping array sizes
+[6.180534] Computing read to node mappings
+[6.594010] Estimating library insert lengths...
+[6.606947] Done
+[6.606952] Computing direct node to node mappings
+[6.631144] Scaffolding node 0
+[6.651832]  === Nodes Scaffolded in 0.044880 s
+[6.656045] Preparing to correct graph with cutoff 0.200000
+[6.678670] Cleaning memory
+[6.678672] Deactivating local correction settings
+[6.678717] Pebble done.
+[6.678718] Starting pebble resolution...
+[6.689349] Computing read to node mapping array sizes
+[6.767946] Computing read to node mappings
+[7.133900] Estimating library insert lengths...
+[7.147120] Done
+[7.147136] Computing direct node to node mappings
+[7.169704] Scaffolding node 0
+[7.188254]  === Nodes Scaffolded in 0.041118 s
+[7.191424] Preparing to correct graph with cutoff 0.200000
+[7.193342] Cleaning memory
+[7.193344] Deactivating local correction settings
+[7.193390] Pebble done.
+[7.193391] Concatenation...
+[7.194893] Renumbering nodes
+[7.194894] Initial node count 5875
+[7.194996] Removed 734 null nodes
+[7.195029] Concatenation over!
+[7.195029] Removing reference contigs with coverage < -1.000000...
+[7.195185] Concatenation...
+[7.195369] Renumbering nodes
+[7.195369] Initial node count 5141
+[7.195374] Removed 0 null nodes
+[7.195404] Concatenation over!
+[7.206851] Writing contigs into 49_output_directory//contigs.fa...
+[7.666784] Writing into stats file 49_output_directory//stats.txt...
+[7.705630] Writing into graph file 49_output_directory//LastGraph...
+Final graph has 5141 nodes and n50 of 1767, max 36218, total 1522688, using 1976351/2567781 reads
+	Command being timed: "velvetg 49_output_directory/ -ins_length 200 -exp_cov 20"
+	User time (seconds): 7.56
+	System time (seconds): 0.86
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.44
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 512312
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 211013
+	Voluntary context switches: 53
+	Involuntary context switches: 27
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+TOTAL LENGTH OF GENOME ASSEMBLY: 1607125
+NUM CONTIG: 2535
+MAX CONTIG LENGTH: 36266
+MEAN CONTIG LENGTH: 633.974358974359
+MEAN COVERAGE DEPTH: 46.447045155424036
+N50:  1689
+#Contig length	Number of contigs in this category
+0	838
+100	453
+200	270
+300	155
+400	122
+500	84
+600	62
+700	57
+800	56
+900	49
+1000	30
+1100	38
+1200	31
+1300	32
+1400	23
+1500	25
+1600	21
+1700	15
+1800	15
+1900	22
+2000	2
+2100	11
+2200	6
+2300	10
+2400	4
+2500	11
+2600	5
+2700	3
+2800	3
+2900	3
+3000	2
+3100	2
+3200	3
+3300	6
+3400	3
+3500	3
+3600	2
+3700	2
+3800	1
+3900	3
+4000	1
+4200	1
+4300	4
+4500	2
+4700	3
+5000	3
+5100	2
+5200	3
+5400	1
+5500	1
+5800	3
+5900	1
+6000	2
+6300	1
+6400	1
+6500	1
+6600	1
+7300	1
+7500	1
+8000	1
+9000	3
+9300	1
+9900	1
+10900	1
+12000	1
+12200	1
+12900	1
+13700	1
+15900	1
+19700	1
+21000	1
+23100	1
+28000	1
+28800	1
+36200	1
